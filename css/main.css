@@ -101,6 +101,16 @@ img {
   border-radius: 6px;
 }
 
+.section_btn {
+  display: block;
+  width: 200px;
+  height: 60px;
+  background: #d9232e;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 6px;
+}
+
 /* content */
 .content {
 }
@@ -166,6 +176,7 @@ img {
   font-size: 13px;
   color: #666;
   margin-bottom: 30px;
+  line-height: 1.5;
 }
 
 .section .text .avatar {
@@ -190,36 +201,34 @@ img {
 }
 
 /* section_03 */
-.section.sec_03 {
+.section.sec_03,
+.section.sec_04 {
   height: 600px;
   box-sizing: border-box;
   padding: 135px 0;
   background: #f0f5f9;
 }
 
-/* section_04 */
-.section.sec_04 {
-  height: 600px;
-  box-sizing: border-box;
-  padding: 135px 0;
-}
-
-/* section_04 */
+/* section_05 */
 .banner {
-  height: 370px;
-  background: #282634 url("../images/banner_img.png") no-repeat;
+  height: 400px;
+  background: url("../images/banner.jpg") no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   margin-bottom: 100px;
 }
 
 .banner_text {
-  color: #fff;
+  color: #000;
   padding: 54px 54px 50px 450px;
   line-height: 1.4;
 }
 
 .banner_text h4 {
-  font-size: 48px;
-  padding: 20px 0 70px;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 280px 0;
 }
 
 .blog {
@@ -259,8 +268,9 @@ img {
 }
 
 .sec_06 h3 {
-  font-size: 48px;
+  font-size: 32px;
   padding: 100px 0 66px;
+  line-height: 1.5;
 }
 
 .sec_06 .avatar {
