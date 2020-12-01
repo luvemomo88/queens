@@ -66,6 +66,7 @@ img {
 
 /* slide */
 .slide_container {
+  margin-top: 64px;
   height: 700px;
   background: url("../images/bg1.jpg") no-repeat;
   background-position: center;
@@ -342,7 +343,7 @@ img {
 
 .footer .right .bottom_menu > li {
   display: inline-block;
-  padding-right: 120px;
+  padding-right: 100px;
 }
 
 .footer .right .bottom_menu > li:last-child {
