@@ -54,6 +54,10 @@ img {
   line-height: 64px;
 }
 
+.nav a.on {
+  color: #f83030;
+}
+
 .header .logo {
   margin-right: auto;
 }
